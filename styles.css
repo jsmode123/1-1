@@ -58,7 +58,7 @@ button {
 
 /* 버튼에 마우스를 올렸을 때의 hover 효과 */
 button:hover {
-    background-color: #45a049; /* 버튼 배경색 조금 더 진하게 */
+    background-color: #6e1917; /* 버튼 배경색 조금 더 진하게 */
 }
 
 /* 버튼이 클릭된 상태에서 스타일 */
