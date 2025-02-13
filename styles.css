@@ -62,3 +62,10 @@ button:disabled {
     background-color: #e0e0e0; /* 비활성화 상태에서 버튼 배경색 */
     cursor: not-allowed; /* 클릭 불가능하게 */
 }
+
+/* 첫째 열, 둘째 열, 넷째 열 숨기기 */
+td:nth-child(1), th:nth-child(1),  /* 첫째 열 */
+td:nth-child(2), th:nth-child(2),  /* 둘째 열 */
+td:nth-child(4), th:nth-child(4) { /* 넷째 열 */
+    display: none;
+}
