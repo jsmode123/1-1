@@ -1,8 +1,10 @@
 /* 전체 테이블 스타일 */
 table {
-    width: 100%; /* 테이블 너비 100% */
+    width: 80%; /* 테이블 너비 100% */
     border-collapse: collapse; /* 테이블 셀 간의 경계를 합쳐서 더 깔끔하게 보이게 */
     margin-top: 20px; /* 테이블 위쪽 여백 추가 */
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 /* 테이블 헤더(th)와 데이터 셀(td) 공통 스타일 */
@@ -12,7 +14,10 @@ th, td {
     text-align: left; /* 텍스트 왼쪽 정렬 */
     font-size: 14px; /* 글자 크기 */
 }
-
+/* 두 번째 열 너비 늘리기 */
+td:nth-child(2), th:nth-child(2) {
+    width: 200px; /* 두 번째 열 너비를 200px로 설정 */
+}
 /* 테이블 헤더 스타일 (th) */
 th {
     background-color: #4CAF50; /* 헤더 배경 색 */
