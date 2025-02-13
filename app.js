@@ -3,9 +3,9 @@ const sheetId = "1L5BUx5Ykewx4RPa9awZdKnKJIUFHU7zLrURMEegwJ2I";
 
 // 각 시트의 gid 값 (여러 시트의 gid 값을 넣음)
 const gids = [
-        { name: "Tab 1", gid: 187466876 },
-        { name: "Tab 2", gid: 131920880 },
-        { name: "Tab 3", gid: 550624426 }
+        { name: "Tab 1", gid: 1779817683 },
+        { name: "Tab 2", gid: 1494090370 },
+        { name: "Tab 3", gid: 402729993 }
 ];
 
 // 탭 버튼을 동적으로 생성하는 함수
