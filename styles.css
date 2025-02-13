@@ -77,3 +77,13 @@ td:nth-child(2), th:nth-child(2),  /* 둘째 열 */
 td:nth-child(4), th:nth-child(4) { /* 넷째 열 */
     display: none;
 }
+
+/* 푸터 스타일 */
+#footer {
+    position: fixed; /* 고정 위치 */
+    bottom: 10px; /* 하단 여백 */
+    right: 20px; /* 오른쪽 여백 */
+    font-size: 12px; /* 글씨 크기 작게 */
+    color: #666; /* 글씨 색 연한 회색 */
+    font-family: 'Noto Sans KR', sans-serif;
+}
