@@ -6,6 +6,7 @@ table {
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 1.5px;
     line-height: 1.6;
+    font-size: 18px; /* 글자 크기 */
     table-layout: fixed;
 }
 
