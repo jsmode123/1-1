@@ -5,6 +5,13 @@ table {
     margin-top: 20px; /* 테이블 위쪽 여백 추가 */
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 1px;
+    table-layout: fixed;
+}
+
+/* 두 번째 열과 세 번째 열 너비 동일하게 설정 */
+td:nth-child(2), th:nth-child(2), 
+td:nth-child(3), th:nth-child(3) {
+    width: 150px; /* 원하는 너비로 설정 (예: 150px) */
 }
 
 /* 테이블 헤더(th)와 데이터 셀(td) 공통 스타일 */
