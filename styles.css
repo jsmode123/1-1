@@ -28,7 +28,7 @@ td:nth-child(2), th:nth-child(2) {
 }
 /* 테이블 헤더 스타일 (th) */
 th {
-    background-color: #4CAF50; /* 헤더 배경 색 */
+    background-color: #861f1c; /* 헤더 배경 색 */
     color: white; /* 헤더 텍스트 색 */
     font-weight: bold; /* 텍스트를 두껍게 */
 }
@@ -47,7 +47,7 @@ tr:hover {
 button {
     margin: 10px; /* 버튼 여백 */
     padding: 12px 20px; /* 버튼 안쪽 여백 (세로, 가로) */
-    background-color: #4CAF50; /* 버튼 배경색 */
+    background-color: #861f1c; /* 버튼 배경색 */
     color: white; /* 버튼 텍스트 색 */
     border: none; /* 버튼 테두리 제거 */
     cursor: pointer; /* 마우스를 올렸을 때 커서 모양 변경 */
